@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection 應用程式在 web.config 中用來存取資料庫的連接字串。" defaultValue="Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-earthquake-20150203023809.mdf;Initial Catalog=aspnet-earthquake-20150203023809;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\KevinYuan\\Documents\\Visual\ Studio\ 2013\\Projects\\earthquake\\earthquake\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="EQdbConnectionString-Web.config Connection String" description="EQdbConnectionString 應用程式在 web.config 中用來存取資料庫的連接字串。" defaultValue="Data Source=yoqirkdh9s.database.windows.net;Initial Catalog=EQdb;Persist Security Info=True;User ID=tommy7965;Password=Kevin7965613" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\KevinYuan\\Documents\\Visual\ Studio\ 2013\\Projects\\earthquake\\earthquake\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='EQdbConnectionString']/@connectionString" />
+  </parameter>
+</parameters>
